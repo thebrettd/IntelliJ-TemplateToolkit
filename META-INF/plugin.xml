@@ -1,0 +1,25 @@
+<idea-plugin version="2">
+  <id>com.brett.lang.templatetoolkit</id>
+  <name>Template Toolkit</name>
+  <version>1.0</version>
+  <vendor email="thebrettd@gmail.com" url="http://thebrettd.github.io">Brett D</vendor>
+
+  <description><![CDATA[
+      A plugin for Template Toolkit support<br>
+      ]]></description>
+
+  <change-notes><![CDATA[
+      Version 0.1<br>
+      <small>Keyword Support</small>
+      ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.net/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="107.105"/>
+
+
+  <extensions defaultExtensionNs="com.intellij">
+      <fileTypeFactory implementation="com.brett.lang.templatetoolkit.TemplateToolkitFileTypeFactory"/>
+  </extensions>
+
+</idea-plugin>
